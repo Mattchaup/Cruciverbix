@@ -1,0 +1,9 @@
+1 - Trouver un endroit ou je peux remplir un mot
+2 - associer le bon dictionnaire avec les blanc
+3 - associer tout les dictionnaires annexes pour le mot en question
+4 - faire une liste de tout les mot possibles trier dans l'ordre
+5 - Si au moins un mot est disponible : 
+        remplir le mot
+    Sinon :
+        Bakctracking
+Continuer jusqu'à ce que la grille soit pleine
