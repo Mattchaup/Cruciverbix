@@ -1,5 +1,4 @@
-dic = {"a":2,"b":5,"c":6}
+a = [1,2,3,4,8]
 
-dicaff = dic.items()
-for j in dic:
-    print(j)
+b = sum(a)
+print(b)

@@ -1,0 +1,17 @@
+1 - Trouver un endroit ou je peux remplir un mot
+2 - associer le bon dictionnaire avec les blanc
+3 - associer tout les dictionnaires annexes pour le mot en question
+4 - faire une liste de tout les mot possibles trier dans l'ordre
+5 - Si au moins un mot est disponible : 
+        remplir le mot
+    Sinon :
+        Bakctracking
+Continuer jusqu'à ce que la grille soit pleine
+
+
+~~~~~~~~~~ Technique pour remplir (bêta) ~~~~~~~~~~
+calculer tout les "apparitions" de chaque ligne/colonne
+Trouver les meilleurs mot pour chaque ligne
+Prendre le pire des meilleurs mots puis reproduire dans l'autre sens
+
+prblm : possiblement bcp de calcul
